@@ -1,0 +1,7 @@
+body {
+    background: url("/wallpapers/1.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
