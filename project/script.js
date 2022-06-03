@@ -1,5 +1,3 @@
-const title = document.querySelector("h1");
-
 setInterval(function () {
     let today = new Date();
     let time = today.getHours();
@@ -20,9 +18,8 @@ setInterval(function () {
         document.body.style.backgroundImage = "url(./wallpapers/7.png)";
     } else if (time >= 21) {
         document.body.style.backgroundImage = "url(./wallpapers/8.png)";
+    } else if (time >= 0 && time < 6) {
+        document.body.style.backgroundImage = "url(./wallpapers/8.png)";
     }
-
-    title.innerText = time;
-
     console.log(time);
 }, 1000);
